@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<?import java.net.URL?>
+<AnchorPane prefHeight="499.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.WeaponDetailsController">
+   <children>
+      <Label layoutX="150.0" layoutY="33.0" text="Weapon Name">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="206.0" fitWidth="330.0" layoutX="253.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true" />
+      <VBox layoutX="14.0" layoutY="93.0" prefHeight="260.0" prefWidth="164.0" spacing="50.0">
+         <children>
+            <Label text="Shields TTK:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Health TTK:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Total TTK:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Rate of Fire:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Ammo:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Overheat (Seconds):">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="178.0" layoutY="93.0" prefHeight="200.0" prefWidth="100.0" spacing="50.0">
+         <children>
+            <Label text="0.00">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="0.00">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="0.00">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="278.0" layoutY="312.0" prefHeight="167.0" prefWidth="100.0" spacing="50.0">
+         <children>
+            <Label text="Projectile:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Headshots:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Bloom:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="418.0" layoutY="312.0" prefHeight="136.0" prefWidth="100.0" spacing="50.0">
+         <children>
+            <Label text="No">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="No">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="None">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Button layoutX="486.0" layoutY="303.0" mnemonicParsing="false" prefHeight="182.0" prefWidth="100.0" text="Back to Locker" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+
+</AnchorPane>

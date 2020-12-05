@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<?import java.net.URL?>
+<AnchorPane prefHeight="499.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.HaloWeaponsController">
+   <children>
+      <Label layoutX="134.0" layoutY="35.0" text="Halo Weapons Locker">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <ListView fx:id="weaponListview" layoutX="35.0" layoutY="166.0" prefHeight="301.0" prefWidth="426.0" />
+      <Button fx:id="getWeaponsButton" layoutX="369.0" layoutY="104.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="37.0" prefWidth="119.0" text="Get Weapon Info">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="titleTextfield" layoutX="143.0" layoutY="104.0" prefHeight="37.0" prefWidth="211.0" promptText="Halo: Reach">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="29.0" layoutY="104.0" prefHeight="37.0" prefWidth="162.0" text="Halo Game Title:" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="rowsreturnedLabel" layoutX="35.0" layoutY="476.0" text="Rows Reurned: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

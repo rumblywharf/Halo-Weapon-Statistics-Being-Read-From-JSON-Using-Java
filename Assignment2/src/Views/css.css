@@ -1,0 +1,20 @@
+.root{
+    -fx-background-color: aqua;
+    -fx-font: inherit;
+    -fx-alignment: center;
+    -fx-blend-mode: inherit;
+    -fx-text-fill: inherit;
+    -fx-background-position: center;
+}
+.button{
+    -fx-font-size: 14pt;
+}
+.list-view{
+    -fx-font-size: 15pt;
+}
+.label{
+    -fx-font-size: 14pt;
+}
+.text-field{
+    -fx-font-size: inherit;
+}
